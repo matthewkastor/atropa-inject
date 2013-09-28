@@ -1,6 +1,6 @@
 {
     "name": "atropa-inject",
-    "version": "2013.09.27-2334",
+    "version": "2013.09.27-2431",
     "description": "Contains tools for injecting elements and assemblies into web pages.",
     "main": "./src/atropa-inject.js",
     "directories": {
@@ -43,7 +43,7 @@
         }
     ],
     "dependencies": {
-        "atropa-header": "*",
-        "atropa-setAsOptionalArg": "*"
+        "atropa-header": "git+https://github.com/matthewkastor/atropa-header.git#master",
+        "atropa-setAsOptionalArg": "git+https://github.com/matthewkastor/atropa-setAsOptionalArg.git#master"
     }
 }
