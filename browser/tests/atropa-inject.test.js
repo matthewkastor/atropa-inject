@@ -372,7 +372,7 @@ describe("atropa.inject", function() {
                     callbackFired = false;
                     settings = {
                         'id'           : null,
-                        'srcURL'       : 'dummyScript.js',
+                        'srcURL'       : 'Toolbox/test/dummyScript.js',
                         'docref'       : null,
                         'callback'     : null
                     };
