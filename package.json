@@ -1,6 +1,6 @@
 {
     "name": "atropa-inject",
-    "version": "2013.09.30-2143",
+    "version": "2013.09.30-2243",
     "description": "Contains tools for injecting elements and assemblies into web pages.",
     "main": "./src/atropa-inject.js",
     "directories": {
@@ -21,7 +21,9 @@
         "buildBrowserModule": "node dev/browserify.js",
         "buildDocs": "jsdoc-toolkit -v -d=./docs/jsdoc/ -r -s src/",
         "lint": "atropa-jslint ./src/atropa-inject.js",
-        "srcFormat": "atropa-jsformatter ./src/atropa-inject.js ./src/atropa-inject.js"
+        "srcFormat": "atropa-jsformatter ./src/atropa-inject.js ./src/atropa-inject.js",
+        "prestart": "node dev/browserify.js",
+        "pretest": "node dev/browserify.js"
     },
     "homepage": "https://github.com/matthewkastor/atropa-inject/",
     "bugs": "https://github.com/matthewkastor/atropa-inject/issues",
