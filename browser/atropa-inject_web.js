@@ -1,7 +1,7 @@
 ;(function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require=="function"&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);throw new Error("Cannot find module '"+o+"'")}var f=n[o]={exports:{}};t[o][0].call(f.exports,function(e){var n=t[o][1][e];return s(n?n:e)},f,f.exports,e,t,n,r)}return n[o].exports}var i=typeof require=="function"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s})({1:[function(require,module,exports){
 var atropa = {};
 
-/// <reference path="../../docs/vsdoc/OpenLayersAll.js"/>
+/// <reference path="../docs/vsdoc/OpenLayersAll.js"/>
 
 /*jslint
     indent: 4,
@@ -157,7 +157,7 @@ var atropa = require('atropa-header');
  *  unless you installed this dependency manually.
  */
 atropa.setAsOptionalArg = require('atropa-setAsOptionalArg').setAsOptionalArg;
-/// <reference path="../../docs/vsdoc/OpenLayersAll.js"/>
+/// <reference path="../docs/vsdoc/OpenLayersAll.js"/>
 /*jslint
     indent: 4,
     maxerr: 50,
@@ -428,7 +428,7 @@ module.exports = atropa;
  * @namespace Container for all Glorious classes, functions, etc.
  */
 var atropa = require('atropa-header');
-/// <reference path="../../docs/vsdoc/OpenLayersAll.js"/>
+/// <reference path="../docs/vsdoc/OpenLayersAll.js"/>
 /*jslint
     indent: 4,
     maxerr: 50,
