@@ -6,9 +6,9 @@
 
     window.atropa = {
         /// <summary></summary>
+        /// <field name="data" type="">Container for gobal data related to the classes and functions.</field>
         /// <field name="inject" type="">Contains tools for injecting elements and assemblies.
         /// into the page.</field>
-        /// <field name="data" type="">Container for gobal data related to the classes and functions.</field>
         /// <returns type="atropa"/>
                 
         supportCheck: function(className, errorMessage) {
