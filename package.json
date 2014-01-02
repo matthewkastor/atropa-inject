@@ -1,6 +1,6 @@
 {
   "name": "atropa-inject",
-  "version": "2014.1.1",
+  "version": "2014.1.2",
   "description": "Contains tools for injecting elements and assemblies into web pages.",
   "main": "./src/atropa-inject.js",
   "directories": {
