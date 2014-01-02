@@ -193,7 +193,6 @@ atropa.requires(
  * @requires atropa.data
  * @requires atropa.supportCheck
  * @requires atropa.setAsOptionalArg
- * @see <a href="../../../AtropaToolboxTests.html?spec=atropa.inject">tests</a>
  */
 atropa.inject = {};
 /**
@@ -461,7 +460,6 @@ var atropa = require('atropa-header');
  * @returns {Mixed} Returns the default value supplied when the optional
  * argument is undefined or null. Otherwise, the supplied optional argument
  * is returned.
- * @see <a href="../../../AtropaToolboxTests.html?spec=atropa.setAsOptionalArg">tests</a>
  */
 atropa.setAsOptionalArg = function (defaultVal, optionalArg) {
     "use strict";
