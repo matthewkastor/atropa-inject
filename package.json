@@ -1,6 +1,6 @@
 {
   "name": "atropa-inject",
-  "version": "2014.1.2",
+  "version": "2014.2.1",
   "description": "Contains tools for injecting elements and assemblies into web pages.",
   "main": "./src/atropa-inject.js",
   "directories": {
@@ -24,7 +24,7 @@
     "srcFormat": "atropa-jsformatter ./src/atropa-inject.js ./src/atropa-inject.js",
     "prestart": "node dev/browserify.js",
     "pretest": "node dev/browserify.js",
-    "buildVsdocs": "jsdoc-toolkit -v -d=./docs/vsdoc/ -t=./dev/vsdoc/ -r -s node_modules/atropa-header/src/ src/ node_modules/atropa-setAsOptionalArg/src/"
+    "buildVsdocs": "jsdoc-toolkit -v -d=./docs/vsdoc/ -t=./node_modules/jsdoc-toolkit/templates/vsdoc/ -r -s node_modules/atropa-header/src/ src/ node_modules/atropa-setAsOptionalArg/src/"
   },
   "homepage": "https://github.com/matthewkastor/atropa-inject/",
   "bugs": "https://github.com/matthewkastor/atropa-inject/issues",
