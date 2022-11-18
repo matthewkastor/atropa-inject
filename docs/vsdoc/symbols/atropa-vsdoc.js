@@ -5,11 +5,15 @@
     
 
     window.atropa = {
-        /// <summary></summary>
+        /// <summary>Container for all Glorious classes, functions, etc.</summary>
+        /// <returns type="atropa"/>
+      
         /// <field name="data" type="">Container for gobal data related to the classes and functions.</field>
+        data : {}, 
+      
         /// <field name="inject" type="">Contains tools for injecting elements and assemblies.
         /// into the page.</field>
-        /// <returns type="atropa"/>
+        inject : {}, 
                 
         supportCheck: function(className, errorMessage) {
             /// <summary>Checks whether this class has been marked as unsupported and throws an 
